@@ -9,9 +9,17 @@ body{
 }
 
     .navbar-toggler{
-        outline:none;
+        outline:none!important;
 
     }
     .bg-black{
         background-color: #000;
+    }
+    /*=======================Slider=================*/
+    .carousel-item{
+        height: 600px;
+    }
+    .carousel-image-1{
+        background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+        url('./images/');
     }
